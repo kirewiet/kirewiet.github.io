@@ -1,40 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" onclick="jump()">
 <head>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {font-family: "Lato", sans-serif}
-.mySlides {display: none}
-</style>
+    <meta charset="UTF-8">
+    <title>Jump Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-
-
-  <!-- The Band Section -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-    <h2 class="w3-wide">Ho Ho Ho </h2>
-    <p class="w3-opacity"><i>Dear Erik </i></p>
-    <p class="w3-justify">
-    This year you have to earn your presents. 
-    You often claim to be good at mind games.
-    Let’s see if you can beat the computers mind game. 
-</p>
-    
-  </div>
-
-
-  
-<!-- End Page Content -->
-<script src="script.js"></script>
-
-
-
-
+    <div class="game">
+        <div id="character"></div>
+        <div id="block"></div>
+    </div>
+    <p>Score: <span id="scoreSpan"></span></p>
 </body>
+<script src="script.js"></script>
 </html>
