@@ -102,7 +102,7 @@ const game = () => {
 
 		if(playerScore > computerScore){
 			result.style.fontSize = '2rem';
-			result.innerText = 'You Won The Game'
+			result.innerText = 'You Won The Game Erik!!!! Now you can open your presents (Finally). Hint: Look for the blue bag.'
 			result.style.color = '#308D46';
 		}
 		else if(playerScore < computerScore){
